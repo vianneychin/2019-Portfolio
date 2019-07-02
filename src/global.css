@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+label {
+  font-weight: bolder;
+}
+a, a:visited {
+  color: none;
+  text-decoration: none;
+}
+button:focus {
+  outline: 0;
+}
+button:hover {
+  cursor: pointer;
+}
+.button {
+  border-radius: 7px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-right: 1.2em;
+  padding-left: 1.2em;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.5), 0 15px 40px rgba(166, 173, 201, 0.2);
+}
+/* for project buttons */
+.project {
+  background-color: #000;
+  color: #FFF;
+  border: 2px solid #FFF;
+}
+
+.github {
+  background-color: #FFF;
+  color: #000;
+  border: 2px solid #000;
+}
+
+/* cool type effect */
+.typewriter {
+  overflow: hidden;
+  border-right: .15em solid white;
+  white-space: nowrap;
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
