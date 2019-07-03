@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const MainSkillsContainer = styled.div`
-  height: 126vh;
+  height: 150vh;
   display: flex;
   justify-content: center;
   align-items: center;
