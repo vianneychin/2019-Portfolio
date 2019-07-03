@@ -28,7 +28,7 @@ const App = () => {
   const { renderLightOrDarkMode, background, textColor, modeText } = UseToggle()
   return (
     <>
-      <PinkModeButton onClick={renderLightOrDarkMode}>
+      <PinkModeButton style={{ backgroundColor: background, color: textColor }} onClick={renderLightOrDarkMode}>
         {modeText}
       </PinkModeButton>
 
