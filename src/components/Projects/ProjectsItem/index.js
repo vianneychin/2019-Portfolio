@@ -3,7 +3,7 @@ import { MainContainer } from './styled'
 
 function ProjectItem(props) {
   return (
-    <MainContainer>
+    <MainContainer style={{ height: '75vh' }}>
       <h1>
         {props.h1}
       </h1>

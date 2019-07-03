@@ -30,7 +30,7 @@ const Main = styled.div`
     font-weight: 100;
   }
   > h1 {
-    margin-bottom: 2em;
+    margin-top: 2em;
     font-size: 50px;
     font-weight: 100;
   }

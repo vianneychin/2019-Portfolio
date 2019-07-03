@@ -3,8 +3,8 @@ import styled from 'styled-components'
 const MainProjectsContainer = styled.div`
   height: 100%;
   
-  @media (max-width: 700px) {
-      height: 820vh;
+  @media (max-width: 420px) {
+      height: 900vh;
     }
   > div:nth-of-type(1) {
     height: 100%;

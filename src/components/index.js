@@ -11,7 +11,7 @@ const PinkModeButton = styled.button`
   background-color: babypink;
   position: absolute;
   margin-top: -3em;
-  top: 84%;
+  top: 79%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding-left: 1.2em;

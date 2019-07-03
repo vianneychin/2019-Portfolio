@@ -93,7 +93,6 @@ const DownArrow = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 11vh;
   animation: ${bounce} 2s infinite;
 `
 
