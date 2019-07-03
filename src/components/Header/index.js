@@ -21,8 +21,8 @@ function Header({ background, textColor }) {
           <h2>Frontend Web Developer</h2>
         </div>
         <div data-aos="fade-down">
-          <a style={{ color: textColor }} href="#">Github</a>
-          <a style={{ color: textColor }} href="#">LinkedIn</a>
+          <a style={{ color: textColor }} href="https://github.com/vianneychin">Github</a>
+          <a style={{ color: textColor }} href="https://www.linkedin.com/in/vianneyjchin/">LinkedIn</a>
         </div>
         <div data-aos="fade-down">
           <h2>Contact</h2>
