@@ -7,7 +7,6 @@ function Skills({ background, textColor }) {
   return (
     <MainSkillsContainer id="skills" style={{ backgroundColor: background }}>
       <Main name="skills" style={{ color: textColor }}>
-        <h1 data-aos='fade-up'>skills</h1>
         <div>
           <div>
             <h2>Development</h2>
