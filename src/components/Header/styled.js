@@ -18,13 +18,8 @@ const MainWrapper = styled.div`
   align-items: center;
   justify-content: center;
   h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 100;
-    @media(max-width: 390px) {
-      h1 {
-      font-size: 35px;
-      }
-    }
   }
   h2 {
     font-family: 'Fira Mono', monospace;
