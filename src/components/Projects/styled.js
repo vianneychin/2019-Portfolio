@@ -12,12 +12,9 @@ const MainProjectsContainer = styled.div`
     padding-left: 1em;
     padding-right: 1em;
     display: flex;
-    justify-content: CENTER;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    @media (max-width: 700px) {
-      height: 820vh;
-    }
     > h1:nth-of-type(1) {
       font-weight: 200;
       font-size: 50px;
