@@ -21,7 +21,7 @@ const MainWrapper = styled.div`
     font-size: 50px;
     font-weight: 100;
     @media(max-width: 390px) {
-      font-size: 40px;
+      font-size: 35px;
     }
   }
   h2 {
