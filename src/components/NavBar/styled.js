@@ -2,13 +2,15 @@ import styled from 'styled-components'
 
 
 const Nav = styled.nav`
-  background-color: rgb( 0, 0, 0, 0.8);
-  position: fixed;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 5vh;
+    background-color: rgb( 0,0,0, .85);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    height: 8vh;
+    font-size: 1.2em;
   a {
     color: white;
   }
