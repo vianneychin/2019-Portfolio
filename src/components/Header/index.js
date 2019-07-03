@@ -14,7 +14,7 @@ function Header({ background, textColor }) {
 
 
     <Main style={{ backgroundColor: background }}>
-      <MainWrapper style={{ color: textColor, marginTop: '-10em' }}>
+      <MainWrapper style={{ color: textColor }}>
         <h1 className="typewriter">Vianney Chin</h1>
         <div data-aos="fade-down">
           <h2>Web Designer,</h2>
