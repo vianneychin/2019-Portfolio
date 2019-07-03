@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const MainSkillsContainer = styled.div`
-  height: 150vh;
+  height: 126vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +30,6 @@ const Main = styled.div`
     font-weight: 100;
   }
   > h1 {
-    margin-top: 2em;
     font-size: 50px;
     font-weight: 100;
   }
