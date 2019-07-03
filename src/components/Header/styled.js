@@ -88,7 +88,7 @@ const Arrow = styled.div`
 `
 const DownArrow = styled.div`
   position: relative;
-  top: 18%;
+  top: 25%;
   left: 0%;
   display: flex;
   align-items: center;

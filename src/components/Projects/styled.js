@@ -1,13 +1,13 @@
 import styled from 'styled-components'
 
 const MainProjectsContainer = styled.div`
-  height: 780vh;
+  height: 100%;
   
   @media (max-width: 700px) {
       height: 820vh;
     }
   > div:nth-of-type(1) {
-    height: 780vh;
+    height: 100%;
     width: 100%;
     padding-left: 1em;
     padding-right: 1em;

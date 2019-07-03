@@ -10,7 +10,8 @@ import '../global.css'
 const PinkModeButton = styled.button`
   background-color: babypink;
   position: absolute;
-  top: 73%;
+  margin-top: -3em;
+  top: 84%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding-left: 1.2em;
@@ -27,7 +28,6 @@ const App = () => {
   const { renderLightOrDarkMode, background, textColor, modeText } = UseToggle()
   return (
     <>
-
       <PinkModeButton onClick={renderLightOrDarkMode}>
         {modeText}
       </PinkModeButton>
