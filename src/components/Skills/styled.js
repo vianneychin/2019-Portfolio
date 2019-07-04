@@ -27,7 +27,7 @@ const Main = styled.div`
   }
   p {
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 200;
   }
   > h1 {
     font-size: 50px;
