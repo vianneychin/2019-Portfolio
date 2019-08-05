@@ -2,12 +2,11 @@ import React from 'react'
 import { ThemeProvider } from 'styled-components'
 
 const theme = {
-  dark: {
-    bg: 'black'
-  },
-  light: {
-    bg: 'darkgrey'
-  }
+  darkPink: '#E06C9F',
+  lightPink: '#F283B6',
+  beige: '#EDBFB7',
+  lightGreen: '#B5BFA1',
+  darkGreen: '#6E9887'
 }
 
 const Theme = props => {

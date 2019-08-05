@@ -1,8 +1,8 @@
 import React from 'react'
-import Wrapper from './styled'
+import MainContainer from './MainContainer'
 
 const App = () => {
-  return <Wrapper>hi</Wrapper>
+  return <MainContainer />
 }
 
 export default App
