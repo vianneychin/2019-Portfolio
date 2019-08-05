@@ -6,7 +6,13 @@ const ProfileBox = () => {
   return (
     <Wrapper>
       <img src={face} />
-      <h1>Vianney J. Chin</h1>
+      <div>
+        <h1>Vianney J. Chin</h1>
+        <div>
+          <h2>Frontend Developer</h2>
+          <h2>Fullstack Developer</h2>
+        </div>
+      </div>
     </Wrapper>
   )
 }

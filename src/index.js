@@ -5,11 +5,11 @@ import GlobalStyle from './GlobalStyle'
 import Theme from './Theme'
 
 ReactDOM.render(
-  <React.Fragment>
-    <GlobalStyle />
-    <Theme>
+  <Theme>
+    <>
+      <GlobalStyle />
       <App />
-    </Theme>
-  </React.Fragment>,
+    </>
+  </Theme>,
   document.querySelector('#root')
 )

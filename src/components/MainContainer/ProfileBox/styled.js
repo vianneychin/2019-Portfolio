@@ -10,8 +10,16 @@ const Wrapper = styled.div`
     height: 125px;
     width: 125px;
   }
-  > h1 {
-    font-weight: 400;
+  > div {
+    height: 100%;
+    > h1 {
+    }
+    > div {
+      > h1 {
+        height: 50%;
+      }
+      height: 50%;
+    }
   }
 `
 
