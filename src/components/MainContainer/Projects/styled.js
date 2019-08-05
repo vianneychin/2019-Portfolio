@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
-  background-color: darkgrey;
-  height: 1000px;
+  background-color: ${props => props.theme.darkGreen};
+  margin-left: 510px;
 `
 
 export { Wrapper }

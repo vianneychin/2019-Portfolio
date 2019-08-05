@@ -7,9 +7,9 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   body {
-    background-color: ${props => props.theme.beige};
     font-size: 14px;
     font-family: Poppins;
+    padding: 15px;
   }
 `
 

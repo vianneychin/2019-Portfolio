@@ -5,12 +5,16 @@ import face from '../../../assets/face.PNG'
 const ProfileBox = () => {
   return (
     <Wrapper>
-      <img src={face} />
       <div>
-        <h1>Vianney J. Chin</h1>
+        <div className='ProfileImage'>
+          <img src={face} />
+        </div>
         <div>
-          <h2>Frontend Developer</h2>
-          <h2>Fullstack Developer</h2>
+          <h1 className='Name'>Vianney J. Chin</h1>
+          <ul className='Title'>
+            <li>Frontend Developer</li>
+            <li>Fullstack Developer</li>
+          </ul>
         </div>
       </div>
     </Wrapper>
