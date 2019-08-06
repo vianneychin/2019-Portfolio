@@ -26,7 +26,6 @@ const Wrapper = styled.div`
     flex-direction: column;
     align-items: center;
     padding-top: 9%;
-}
     .Name {
       height: 35%;
       font-weight: 500;
@@ -37,6 +36,18 @@ const Wrapper = styled.div`
       height: 35%;
       li {
         list-style: none;
+      }
+    }
+  }
+  @media (max-width: ${props => props.theme.dimensions.mobile}) {
+    .Profile-Image {
+      height: 100px;
+      width: 100px;
+      border-radius: 100px;
+      > img {
+        height: 90px;
+        width: 90px;
+        border-radius: 90px;
       }
     }
   }

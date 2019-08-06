@@ -19,6 +19,7 @@ const Wrapper = styled.div`
     height: 100%;
     width: 80%;
     min-width: 1200px;
+    margin-top: 100.4px;
     .Left-Container {
       height: 1000px;
       width: 40%;
@@ -50,10 +51,10 @@ const Wrapper = styled.div`
       height: 2000px;
     }
   }
-  @media (max-width: 450px) {
+  @media (max-width: ${props => props.theme.dimensions.mobile}) {
     .Center-Container {
       min-width: 0;
-      flex-direction: column !important;
+      flex-direction: column;
       .Left-Container {
         width: 100%;
         height: 1000px;

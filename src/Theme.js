@@ -6,7 +6,10 @@ const theme = {
   lightPink: '#F283B6',
   beige: '#EDBFB7',
   lightGreen: '#B5BFA1',
-  darkGreen: '#6E9887'
+  darkGreen: '#6E9887',
+  dimensions: {
+    mobile: '450px'
+  }
 }
 
 const Theme = props => {
