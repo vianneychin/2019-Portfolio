@@ -2,6 +2,7 @@ import React from 'react'
 import { Wrapper } from './styled'
 import Profile from './Profile'
 import Skills from './Skills'
+import Contact from './Contact'
 
 const App = () => {
   return (
@@ -15,7 +16,9 @@ const App = () => {
           <div className='Skills'>
             <Skills />
           </div>
-          <div className='Contact' />
+          <div className='Contact'>
+            <Contact />
+          </div>
         </div>
         <div className='Right-Container' />
       </div>
