@@ -40,14 +40,25 @@ const Wrapper = styled.div`
     }
   }
   @media (max-width: ${props => props.theme.dimensions.mobile}) {
+    flex-direction: column;
     .Profile-Image {
-      height: 100px;
-      width: 100px;
-      border-radius: 100px;
+      background-color: white;
       > img {
         height: 90px;
         width: 90px;
-        border-radius: 90px;
+        margin-top: 5%;
+      }
+    }
+    .Text-Container {
+      margin-bottom: 5%;
+      .Name {
+        font-size: 18px;
+        line-height: 0;
+      }
+      .Title {
+        li {
+          font-size: 12px;
+        }
       }
     }
   }

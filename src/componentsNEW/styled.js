@@ -27,7 +27,7 @@ const Wrapper = styled.div`
       display: flex;
       flex-direction: column;
       .Profile {
-        background-color: red;
+        background-color: ${props => props.theme.darkGreen};
         flex: 1;
         width: 100%;
         padding: 3.5%;

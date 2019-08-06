@@ -1,6 +1,7 @@
 import React from 'react'
 import { Wrapper } from './styled'
 import Profile from './Profile'
+import Skills from './Skills'
 
 const App = () => {
   return (
@@ -11,7 +12,9 @@ const App = () => {
           <div className='Profile'>
             <Profile />
           </div>
-          <div className='Skills' />
+          <div className='Skills'>
+            <Skills />
+          </div>
           <div className='Contact' />
         </div>
         <div className='Right-Container' />
