@@ -19,9 +19,8 @@ const Wrapper = styled.div`
     height: 100%;
     width: 80%;
     min-width: 1200px;
-    margin-top: 100.4px;
     .Left-Container {
-      height: 1000px;
+      height: 900px;
       width: 40%;
       background-color: pink;
       display: flex;
@@ -33,7 +32,7 @@ const Wrapper = styled.div`
         padding: 3.5%;
       }
       .Skills {
-        background-color: yellow;
+        background-color: pink;
         width: 100%;
         flex: 2;
         padding: 3.5%;
@@ -55,6 +54,7 @@ const Wrapper = styled.div`
     .Center-Container {
       min-width: 0;
       flex-direction: column;
+      margin-top: 100.4px;
       .Left-Container {
         width: 100%;
         height: 1000px;
