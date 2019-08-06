@@ -5,6 +5,9 @@ const Contact = () => {
   return (
     <Wrapper>
       <h1>contact</h1>
+      <ul>
+        <li />
+      </ul>
     </Wrapper>
   )
 }
