@@ -48,6 +48,15 @@ const Wrapper = styled.div`
   @media (max-width: 450px) {
     .Center-Container {
       min-width: 0;
+      flex-direction: column !important;
+      .Left-Container {
+        width: 100%;
+        height: 100%;
+      }
+      .Right-Container {
+        height: 100%;
+        width: 100%;
+      }
     }
     .Nav {
       visibility: visible;
