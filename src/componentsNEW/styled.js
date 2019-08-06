@@ -21,7 +21,7 @@ const Wrapper = styled.div`
     min-width: 1200px;
     .Left-Container {
       height: 1000px;
-      width: 30%;
+      width: 40%;
       background-color: pink;
       display: flex;
       flex-direction: column;
@@ -29,20 +29,23 @@ const Wrapper = styled.div`
         background-color: red;
         flex: 1;
         width: 100%;
+        padding: 3.5%;
       }
       .Skills {
         background-color: yellow;
         width: 100%;
         flex: 2;
+        padding: 3.5%;
       }
       .Contact {
         background-color: green;
         flex: 1;
         width: 100%;
+        padding: 3.5%;
       }
     }
     .Right-Container {
-      width: 70%;
+      width: 60%;
       background-color: cornflowerblue;
       height: 2000px;
     }

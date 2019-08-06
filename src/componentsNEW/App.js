@@ -1,5 +1,6 @@
 import React from 'react'
 import { Wrapper } from './styled'
+import Profile from './Profile'
 
 const App = () => {
   return (
@@ -7,7 +8,9 @@ const App = () => {
       <nav className='Nav' />
       <div className='Center-Container'>
         <div className='Left-Container'>
-          <div className='Profile' />
+          <div className='Profile'>
+            <Profile />
+          </div>
           <div className='Skills' />
           <div className='Contact' />
         </div>
