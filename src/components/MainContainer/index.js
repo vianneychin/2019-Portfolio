@@ -10,8 +10,10 @@ const MainContainer = () => {
     <Wrapper>
       <ProfileBox />
       <Projects />
-      <Contact />
-      <Skills />
+      <div>
+        <Contact />
+        <Skills />
+      </div>
     </Wrapper>
   )
 }
