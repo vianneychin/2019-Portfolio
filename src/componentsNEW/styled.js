@@ -16,33 +16,35 @@ const Wrapper = styled.div`
   .Center-Container {
     background-color: darkgrey;
     display: flex;
-    height: 2000px;
+    height: 100%;
     width: 80%;
     min-width: 1200px;
     .Left-Container {
-      width: 50%;
+      height: 1000px;
+      width: 30%;
       background-color: pink;
       display: flex;
       flex-direction: column;
-      .one {
+      .Profile {
         background-color: red;
         flex: 1;
         width: 100%;
       }
-      .two {
+      .Skills {
         background-color: yellow;
         width: 100%;
-        flex: 1;
+        flex: 2;
       }
-      .three {
+      .Contact {
         background-color: green;
         flex: 1;
         width: 100%;
       }
     }
     .Right-Container {
-      width: 50%;
+      width: 70%;
       background-color: cornflowerblue;
+      height: 2000px;
     }
   }
   @media (max-width: 450px) {
@@ -51,10 +53,10 @@ const Wrapper = styled.div`
       flex-direction: column !important;
       .Left-Container {
         width: 100%;
-        height: 100%;
+        height: 1000px;
       }
       .Right-Container {
-        height: 100%;
+        height: 2000px;
         width: 100%;
       }
     }

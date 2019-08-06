@@ -7,9 +7,9 @@ const App = () => {
       <nav className='Nav' />
       <div className='Center-Container'>
         <div className='Left-Container'>
-          <div className='one' />
-          <div className='two' />
-          <div className='three' />
+          <div className='Profile' />
+          <div className='Skills' />
+          <div className='Contact' />
         </div>
         <div className='Right-Container' />
       </div>
