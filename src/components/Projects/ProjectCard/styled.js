@@ -17,7 +17,6 @@ const Wrapper = styled.div`
   }
   .Project-Text-Container {
     width: 50%;
-    height: 100%;
     background-color: pink;
     padding: 2.5%;
     .Title-Container {
