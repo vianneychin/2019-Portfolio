@@ -9,28 +9,28 @@ const Contact = () => {
       <h1>contact</h1>
       <div className='Contact-Container'>
         <div>
-          <span>📞</span>
           <a href='tel:213-716-5106'>
+            <span>📞</span>
             <p>(213) 716 - 5106</p>
           </a>
         </div>
         <div>
-          <span>📬</span>
           <a href='mailto:vianneyjchin@gmail.com'>
+            <span>📬</span>
             <p>vianneyjchin@gmail.com</p>
           </a>
         </div>
       </div>
       <div className='Social-Container'>
         <div>
-          <img src={githubIcon} />
           <a href='https://github.com/vianneychin'>
+            <img src={githubIcon} />
             <p>GitHub</p>
           </a>
         </div>
         <div>
-          <img src={linkedinIcon} />
           <a href='https://www.linkedin.com/in/vianneyjchin/'>
+            <img src={linkedinIcon} />
             <p>LinkedIn</p>
           </a>
         </div>
