@@ -5,6 +5,9 @@ const Wrapper = styled.div`
   flex-direction: column;
   height: 100%;
   padding: 1.5%;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: ${props => props.theme.shadow};
   p {
     margin-top: 5px;
   }
@@ -24,6 +27,7 @@ const Wrapper = styled.div`
     display: flex;
     height: 50%;
     align-items: center;
+    flex-direction: column;
     > div {
       display: flex;
       justify-content: center;
@@ -32,12 +36,15 @@ const Wrapper = styled.div`
       font-weight: 400;
       letter-spacing: 0.75px;
       > a {
+        width: 70%;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
         align-items: center;
+        > p {
+          color: ${props => props.theme.secondary};
+        }
         > span {
           font-size: 30px;
+          margin-right: 10%;
         }
       }
     }
@@ -61,6 +68,10 @@ const Wrapper = styled.div`
           height: 40px;
           width: 40px;
           margin-top: 10px;
+        }
+        > p {
+          font-weight: 500;
+          color: ${props => props.theme.secondary};
         }
       }
     }

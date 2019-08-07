@@ -4,6 +4,10 @@ const Wrapper = styled.div`
   height: 100%;
   display: flex;
   background-color: white;
+  border-radius: 4px;
+  box-shadow: ${props => props.theme.shadow};
+  padding-top: 5%;
+  padding-bottom: 5%;
   div {
     width: 100%;
     display: flex;
@@ -24,6 +28,7 @@ const Wrapper = styled.div`
     > span {
       padding-left: 5px;
       padding-right: 5px;
+      color: ${props => props.theme.secondary};
     }
     .Development-Skills {
       .Development-Content {

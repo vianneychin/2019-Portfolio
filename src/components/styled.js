@@ -22,7 +22,7 @@ const Wrapper = styled.div`
     /* min-width: 1200px; */
     max-width: 1355px;
     .Left-Container {
-      height: 900px;
+      height: 100vh;
       width: 34%;
       max-width: 538px;
       background-color: pink;
@@ -53,6 +53,7 @@ const Wrapper = styled.div`
       background-color: ${props => props.theme.darkPink};
       height: 2000px;
       padding: 1%;
+      height: 2030px;
     }
   }
   @media (max-width: ${props => props.theme.dimensions.mobile}) {
