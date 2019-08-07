@@ -4,8 +4,16 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
+  padding: 1.5%;
   p {
     margin-top: 5px;
+  }
+  hr {
+    width: 25%;
+    align-self: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    /* remember to change the color of this hr */
   }
   > h1 {
     text-align: center;
@@ -60,6 +68,13 @@ const Wrapper = styled.div`
   @media (max-width: ${props => props.theme.dimensions.mobile}) {
     p {
       font-size: 3vw;
+    }
+    div:nth-of-type(2) {
+      a {
+        p {
+          font-size: 2.5vw;
+        }
+      }
     }
   }
 `

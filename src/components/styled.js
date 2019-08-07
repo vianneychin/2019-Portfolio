@@ -38,6 +38,8 @@ const Wrapper = styled.div`
         width: 100%;
         flex: 2;
         padding: 3.5%;
+        padding-top: 10%;
+        padding-bottom: 10%;
       }
       .Contact {
         background-color: green;

@@ -7,6 +7,7 @@ const Contact = () => {
   return (
     <Wrapper>
       <h1>contact</h1>
+      <hr />
       <div className='Contact-Container'>
         <div>
           <a href='tel:213-716-5106'>

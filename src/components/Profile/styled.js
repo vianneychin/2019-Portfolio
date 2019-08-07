@@ -31,6 +31,9 @@ const Wrapper = styled.div`
       font-weight: 500;
       font-size: 25px;
       line-height: 70px;
+      @media (max-width: 1215px) {
+        font-size: 20px;
+      }
     }
     .Title {
       height: 35%;

@@ -3,6 +3,7 @@ import { Wrapper } from './styled'
 import Profile from './Profile'
 import Skills from './Skills'
 import Contact from './Contact'
+import Projects from './Projects'
 
 const App = () => {
   return (
@@ -20,7 +21,9 @@ const App = () => {
             <Contact />
           </div>
         </div>
-        <div className='Right-Container' />
+        <div className='Right-Container'>
+          <Projects />
+        </div>
       </div>
     </Wrapper>
   )

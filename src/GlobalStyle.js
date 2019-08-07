@@ -7,6 +7,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     font-size: 14px;
     font-family: Poppins;
+    white-space: nowrap;
   }
   a:visited {
     color: black;
