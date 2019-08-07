@@ -49,9 +49,8 @@ const Wrapper = styled.div`
       width: 66%;
       max-width: 2000px;
       background-color: ${props => props.theme.beige};
-      height: 100%;
+      height: 101%;
       padding: 1%;
-      height: 2030px;
       margin-left: 40%;
     }
   }

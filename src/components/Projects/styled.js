@@ -5,6 +5,7 @@ const Wrapper = styled.div`
   background-color: white;
   border-radius: 4px;
   box-shadow: ${props => props.theme.shadow};
+  height: 101%;
   .Title {
     height: 106px;
     display: flex;
