@@ -16,7 +16,12 @@ const Projects = () => {
         <h1>projects</h1>
       </div>
       <div className='Projects-Container'>
-        <ProjectCard />
+        <ProjectCard image={safeParkingLA} projectName='SafeParkingLA' />
+        <ProjectCard image={muscleMaker} />
+        <ProjectCard image={weatherful} />
+        <ProjectCard image={californature} />
+        <ProjectCard image={connectFourTwo} />
+        <ProjectCard image={connectFourOne} />
       </div>
     </Wrapper>
   )

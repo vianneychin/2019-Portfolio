@@ -1,14 +1,20 @@
 import React from 'react'
 import { Wrapper } from './styled'
+import githubIcon from '../../../assets/github.svg'
 
-const ProjectCard = () => {
+const ProjectCard = props => {
   return (
     <Wrapper>
       <div className='Project-Picture-Container'>
-        <img />
+        <img src={props.image} />
       </div>
       <div className='Project-Text-Container'>
-        <h1 />
+        <div className='Title-Container'>
+          <h1>{props.projectName}</h1>
+          <div>
+            <img src={githubIcon} />
+          </div>
+        </div>
       </div>
     </Wrapper>
   )
