@@ -7,7 +7,7 @@ const Skills = () => {
       <div className='Development-Skills'>
         <h1>development</h1>
         <hr />
-        <div className='Development-Content'>
+        <div className='Development-Content' style={{ flexDirection: 'row' }}>
           <span>Git</span>
           <span>Github</span>
         </div>

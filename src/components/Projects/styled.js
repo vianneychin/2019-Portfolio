@@ -1,10 +1,11 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
-  padding: 2.5%;
+  padding: 1%;
+  background-color: white;
   .Title {
     height: 106px;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: center;

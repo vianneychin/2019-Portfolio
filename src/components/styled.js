@@ -51,8 +51,9 @@ const Wrapper = styled.div`
     .Right-Container {
       width: 66%;
       max-width: 2000px;
-      background-color: cornflowerblue;
+      background-color: ${props => props.theme.darkPink};
       height: 2000px;
+      padding: 1%;
     }
   }
   @media (max-width: ${props => props.theme.dimensions.mobile}) {

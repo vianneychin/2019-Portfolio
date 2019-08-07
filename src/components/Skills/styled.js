@@ -29,7 +29,6 @@ const Wrapper = styled.div`
       .Development-Content {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
       }
     }
     .Frontend-Skills {

@@ -39,6 +39,7 @@ const Wrapper = styled.div`
       height: 35%;
       li {
         list-style: none;
+        color: ${props => props.theme.secondary};
       }
     }
   }

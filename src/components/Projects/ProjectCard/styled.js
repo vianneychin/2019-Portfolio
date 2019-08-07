@@ -6,25 +6,28 @@ const Wrapper = styled.div`
   height: 350px;
   .Project-Picture-Container {
     width: 50%;
-    background-color: grey;
     display: flex;
     justify-content: center;
-    align-items: center;
-    /* align-self: center; */
+    align-items: flex-start;
+    margin-right: 3%;
     img {
       width: 100%;
+      border-radius: 4px;
+      box-shadow: ${props => props.theme.shadow};
     }
   }
   .Project-Text-Container {
     width: 50%;
-    background-color: pink;
     padding: 2.5%;
+    background-color: white;
+    box-shadow: ${props => props.theme.shadow};
+    border-radius: 4px;
     .Title-Container {
       display: flex;
       justify-content: space-between;
       h1 {
         font-size: 20px;
-        font-weight: 400;
+        font-weight: 600;
         line-height: 40px;
       }
       .Github-Container {
@@ -37,16 +40,24 @@ const Wrapper = styled.div`
     }
   }
   .Technologies-Used-Container {
+    h2 {
+      color: ${props => props.theme.secondary};
+    }
     div {
       p {
         white-space: normal;
+        color: ${props => props.theme.secondary};
       }
     }
   }
   .About-Container {
+    h2 {
+      color: ${props => props.theme.secondary};
+    }
     div {
       p {
         white-space: normal;
+        color: ${props => props.theme.secondary};
       }
     }
   }

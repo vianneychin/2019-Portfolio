@@ -8,10 +8,11 @@ const theme = {
   lightGreen: '#B5BFA1',
   darkGreen: '#6E9887',
   shadow:
-    'box-shadow: 0 5px 10px rgba(154, 160, 185, 0.5), 0 15px 40px rgba(166, 173, 201, 0.2)',
+    '0 5px 10px rgba(154, 160, 185, 0.5), 0 15px 40px rgba(166, 173, 201, 0.2)',
   dimensions: {
     mobile: '450px'
-  }
+  },
+  secondary: 'rgba(0,0,0,0.8)'
 }
 
 const Theme = props => {
