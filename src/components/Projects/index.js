@@ -1,10 +1,13 @@
 import React from 'react'
 import { Wrapper } from './styled'
 
-const Projects = () => {
+const Projects = props => {
   return (
     <Wrapper>
-      <h1>This is the projects page</h1>
+      <div className='Title'>
+        <h1>projects</h1>
+      </div>
+      <div className='Projects-Container'>{props.children}</div>
     </Wrapper>
   )
 }
