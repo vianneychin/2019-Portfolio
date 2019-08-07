@@ -25,6 +25,7 @@ const Wrapper = styled.div`
       max-width: 538px;
       display: flex;
       flex-direction: column;
+      position: fixed;
       .Profile {
         background-color: ${props => props.theme.offWhite};
         flex: 1;
@@ -51,6 +52,7 @@ const Wrapper = styled.div`
       height: 2000px;
       padding: 1%;
       height: 2030px;
+      margin-left: 40%;
     }
   }
   @media (max-width: ${props => props.theme.dimensions.mobile}) {
