@@ -57,6 +57,11 @@ const Wrapper = styled.div`
       }
     }
   }
+  @media (max-width: ${props => props.theme.dimensions.mobile}) {
+    p {
+      font-size: 3vw;
+    }
+  }
 `
 
 export { Wrapper }

@@ -1,21 +1,24 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
+  height: 100%;
+  display: flex;
+
   div {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 3%;
     > h1 {
       text-align: center;
       font-weight: 400;
       font-size: 20px;
     }
     > hr {
+      margin-top: 1%;
+      margin-bottom: 1%;
       width: 15%;
-      margin-bottom: 2%;
       /* Change the border color of this later */
     }
     > span {
