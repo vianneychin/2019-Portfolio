@@ -8,12 +8,12 @@ const Wrapper = styled.div`
   border-radius: 4px;
   box-shadow: ${props => props.theme.shadow};
   .Profile-Image {
-    background-color: ${props => props.theme.darkGreen};
+    background-color: ${props => props.theme.secondary};
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 135px;
-    width: 135px;
+    height: 130px;
+    width: 130px;
     border-radius: 125px;
     margin: 5%;
     > img {

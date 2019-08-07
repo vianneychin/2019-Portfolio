@@ -12,7 +12,8 @@ const theme = {
   dimensions: {
     mobile: '450px'
   },
-  secondary: 'rgba(0,0,0,0.8)'
+  secondary: 'rgba(0,0,0,0.8)',
+  offWhite: 'rgba(255, 255, 255, 0.5)'
 }
 
 const Theme = props => {

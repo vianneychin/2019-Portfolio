@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <Wrapper>
       <div className='Development-Skills'>
-        <h1>development</h1>
+        <h1>development 👨‍💻</h1>
         <hr />
         <div className='Development-Content' style={{ flexDirection: 'row' }}>
           <span>Git</span>

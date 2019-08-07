@@ -43,7 +43,7 @@ const Wrapper = styled.div`
           color: ${props => props.theme.secondary};
         }
         > span {
-          font-size: 30px;
+          font-size: 20px;
           margin-right: 10%;
         }
       }

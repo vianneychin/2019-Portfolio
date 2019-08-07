@@ -13,42 +13,42 @@ const Projects = () => {
   return (
     <Wrapper>
       <div className='Title'>
-        <h1>projects</h1>
+        <h1>projects ⚒</h1>
       </div>
       <div className='Projects-Container'>
         <ProjectCard
           image={safeParkingLA}
-          projectName='SafeParkingLA'
+          projectName='SafeParkingLA 🚗'
           technologiesUsed='React, React Router, Styled Components, JavaScript, HTML5, CSS3, Zeplin, Git, GitHub'
           about='A hackathon project made in the course of a three day sprint. This website was created to assist the homeless living in their cars and provide them the necessary resources for safe, legal, and overnight parking. Data was gathered from an excel spreadsheet and converted into JSON format to search for resources such as food, supplies, showers, etc. '
         />
         <ProjectCard
           image={muscleMaker}
-          projectName='Muscle Maker Fitness'
+          projectName='Muscle Maker Fitness 🏋️‍'
           technologiesUsed='React, React Router, Styled Components, JavaScript, HTML5, CSS3, Python 3, Flask, Git, GitHub YouTube API'
           about='A fitness tracking website with a Python backend and a React frontend. Has Modals for registering and signing up. Implemented Youtube API search engine and video rendering.'
         />
         <ProjectCard
           image={weatherful}
-          projectName='Weatherful Weather'
+          projectName='Weatherful Weather️️ ☔️ '
           technologiesUsed='React, React-Router, Moment, Styled Components, JavaScript, HTML5, CSS3, Node.js, Express.js, Mongoose.js, MongoDB, Git, GitHub, Dark Sky API'
           about="A minimalist weather tracking application to get your next 12 hour and 7 day forecast. Inspired by the Momentum dashboard for it's simplistic signup method and feel-good clutter free UI."
         />
         <ProjectCard
           image={californature}
-          projectName='Californature Meetup'
+          projectName='Californature Meetup ⛰'
           technologiesUsed='HTML5, CSS3, JavaScript, EJS, Express.js, Node.js, Mongoose.js, MongoDB, Git, GitHub, Google Maps API, Geocoding API'
           about='A meetup website for nature enthusiasts and nature lovers alike. Register and join a local meetup or create one of your own. '
         />
         <ProjectCard
           image={connectFourTwo}
-          projectName='Connect Four Remake'
+          projectName='Connect Four Remake 🎲'
           technologiesUsed='HTML5, CSS3, jQuery, JavaScript, Zeplin'
           about='A remake created with the help of a UX Designer to gain more knowledge on better design and UI fundamentals for a better user experience.'
         />
         <ProjectCard
           image={connectFourOne}
-          projectName='Connect Four'
+          projectName='Connect Four 🎲'
           technologiesUsed='HTML5, CSS3, jQuery, JavaScript'
           about='My first projected created on my own to further develop my JavaScript logic.'
         />

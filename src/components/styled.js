@@ -8,7 +8,6 @@ const Wrapper = styled.div`
   background-color: white;
   .Nav {
     width: 100%;
-    background-color: pink;
     height: 100px;
     position: fixed;
     top: 0;
@@ -19,29 +18,27 @@ const Wrapper = styled.div`
     display: flex;
     height: 100%;
     width: 80%;
-    /* min-width: 1200px; */
     max-width: 1355px;
     .Left-Container {
       height: 100vh;
       width: 34%;
       max-width: 538px;
-      background-color: pink;
       display: flex;
       flex-direction: column;
       .Profile {
-        background-color: ${props => props.theme.darkGreen};
+        background-color: ${props => props.theme.offWhite};
         flex: 1;
         width: 100%;
         padding: 3.5%;
       }
       .Skills {
-        background-color: ${props => props.theme.darkGreen};
+        background-color: ${props => props.theme.offWhite};
         width: 100%;
         flex: 2;
         padding: 3.5%;
       }
       .Contact {
-        background-color: green;
+        background-color: ${props => props.theme.offWhite};
         flex: 1;
         width: 100%;
         padding: 3.5%;
@@ -50,7 +47,7 @@ const Wrapper = styled.div`
     .Right-Container {
       width: 66%;
       max-width: 2000px;
-      background-color: ${props => props.theme.darkPink};
+      background-color: ${props => props.theme.beige};
       height: 2000px;
       padding: 1%;
       height: 2030px;

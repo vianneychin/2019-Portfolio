@@ -3,9 +3,10 @@ import styled from 'styled-components'
 const Wrapper = styled.div`
   padding: 1%;
   background-color: white;
+  border-radius: 4px;
+  box-shadow: ${props => props.theme.shadow};
   .Title {
     height: 106px;
-    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: center;
