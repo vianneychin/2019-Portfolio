@@ -18,10 +18,12 @@ const Wrapper = styled.div`
     display: flex;
     height: 100%;
     width: 80%;
-    min-width: 1200px;
+    /* min-width: 1200px; */
+    max-width: 1355px;
     .Left-Container {
       height: 900px;
       width: 40%;
+      max-width: 538px;
       background-color: pink;
       display: flex;
       flex-direction: column;
@@ -46,6 +48,7 @@ const Wrapper = styled.div`
     }
     .Right-Container {
       width: 60%;
+      max-width: 2000px;
       background-color: cornflowerblue;
       height: 2000px;
     }
