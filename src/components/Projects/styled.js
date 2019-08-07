@@ -14,6 +14,9 @@ const Wrapper = styled.div`
     }
   }
   .Projects-Container {
+    > div {
+      height: 100%;
+    }
   }
 `
 

@@ -65,7 +65,7 @@ const Wrapper = styled.div`
         height: 1000px;
       }
       .Right-Container {
-        height: 2000px;
+        height: 100%;
         width: 100%;
       }
     }
