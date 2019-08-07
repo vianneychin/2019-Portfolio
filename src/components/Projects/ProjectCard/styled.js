@@ -6,11 +6,11 @@ const Wrapper = styled.div`
   height: 350px;
   .Project-Picture-Container {
     width: 50%;
-    height: 100%;
     background-color: grey;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* align-self: center; */
     img {
       width: 100%;
     }
