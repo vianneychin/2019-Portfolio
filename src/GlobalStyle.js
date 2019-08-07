@@ -8,6 +8,13 @@ const GlobalStyle = createGlobalStyle`
     font-size: 14px;
     font-family: Poppins;
   }
+  a:visited {
+    color: black;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
 `
 
 export default GlobalStyle

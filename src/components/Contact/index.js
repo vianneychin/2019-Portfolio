@@ -10,22 +10,29 @@ const Contact = () => {
       <div className='Contact-Container'>
         <div>
           <span>📞</span>
-          <p>(213) 716 - 5106</p>
+          <a href='tel:213-716-5106'>
+            <p>(213) 716 - 5106</p>
+          </a>
         </div>
         <div>
           <span>📬</span>
-          <p>vianneyjchin@gmail.com</p>
+          <a href='mailto:vianneyjchin@gmail.com'>
+            <p>vianneyjchin@gmail.com</p>
+          </a>
         </div>
       </div>
-      <h1>social handles</h1>
       <div className='Social-Container'>
         <div>
           <img src={githubIcon} />
-          <p>GitHub</p>
+          <a href='https://github.com/vianneychin'>
+            <p>GitHub</p>
+          </a>
         </div>
         <div>
           <img src={linkedinIcon} />
-          <p>LinkedIn</p>
+          <a href='https://www.linkedin.com/in/vianneyjchin/'>
+            <p>LinkedIn</p>
+          </a>
         </div>
       </div>
     </Wrapper>
