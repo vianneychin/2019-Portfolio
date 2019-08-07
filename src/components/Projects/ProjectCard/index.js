@@ -6,13 +6,15 @@ const ProjectCard = props => {
   return (
     <Wrapper>
       <div className='Project-Picture-Container'>
-        <img src={props.image} />
+        <a href={props.linkTo}>
+          <img src={props.image} />
+        </a>
       </div>
       <div className='Project-Text-Container'>
         <div className='Title-Container'>
           <h1>{props.projectName}</h1>
           <div className='Github-Container'>
-            <a href='#'>
+            <a href={props.github}>
               <img src={githubIcon} />
             </a>
           </div>

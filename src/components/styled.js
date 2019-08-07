@@ -49,7 +49,7 @@ const Wrapper = styled.div`
       width: 66%;
       max-width: 2000px;
       background-color: ${props => props.theme.beige};
-      height: 2000px;
+      height: 100%;
       padding: 1%;
       height: 2030px;
       margin-left: 40%;

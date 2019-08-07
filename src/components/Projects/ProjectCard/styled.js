@@ -10,10 +10,16 @@ const Wrapper = styled.div`
     justify-content: center;
     align-items: flex-start;
     margin-right: 3%;
-    img {
-      width: 100%;
-      border-radius: 4px;
-      box-shadow: ${props => props.theme.shadow};
+    a {
+      img {
+        width: 100%;
+        border-radius: 4px;
+        box-shadow: ${props => props.theme.shadow};
+        :hover {
+          cursor: pointer;
+          border: 3px solid rgb(0, 0, 0, 0.4);
+        }
+      }
     }
   }
   .Project-Text-Container {
