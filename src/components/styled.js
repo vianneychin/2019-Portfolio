@@ -5,6 +5,7 @@ const Wrapper = styled.div`
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  background-color: white;
   .Nav {
     width: 100%;
     background-color: pink;
@@ -34,12 +35,10 @@ const Wrapper = styled.div`
         padding: 3.5%;
       }
       .Skills {
-        background-color: pink;
+        background-color: ${props => props.theme.darkGreen};
         width: 100%;
         flex: 2;
         padding: 3.5%;
-        padding-top: 10%;
-        padding-bottom: 10%;
       }
       .Contact {
         background-color: green;

@@ -5,6 +5,8 @@ const Wrapper = styled.div`
   height: 100%;
   display: flex;
   align-items: center;
+  border-radius: 4px;
+  box-shadow: ${props => props.theme.shadow};
   .Profile-Image {
     background-color: ${props => props.theme.darkGreen};
     display: flex;
