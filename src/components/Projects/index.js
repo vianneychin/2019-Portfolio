@@ -16,7 +16,12 @@ const Projects = () => {
         <h1>projects</h1>
       </div>
       <div className='Projects-Container'>
-        <ProjectCard image={safeParkingLA} projectName='SafeParkingLA' />
+        <ProjectCard
+          image={safeParkingLA}
+          projectName='SafeParkingLA'
+          technologiesUsed='React, React Router, Styled Components, JavaScript, HTML5, CSS3, Zeplin, Git, Github'
+          about='A hackathon project made in the course of a three day sprint. This website was created to assist the homeless living in their cars and provide them the necessary resources for safe, legal, and overnight parking. Data was gathered from an excel spreadsheet and converted into JSON format to search for resources such as food, supplies, showers, etc. '
+        />
         <ProjectCard image={muscleMaker} />
         <ProjectCard image={weatherful} />
         <ProjectCard image={californature} />

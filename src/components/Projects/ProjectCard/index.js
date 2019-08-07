@@ -11,8 +11,23 @@ const ProjectCard = props => {
       <div className='Project-Text-Container'>
         <div className='Title-Container'>
           <h1>{props.projectName}</h1>
+          <div className='Github-Container'>
+            <a href='#'>
+              <img src={githubIcon} />
+            </a>
+          </div>
+        </div>
+        <div className='Technologies-Used-Container'>
+          <h2>Technologies Used:</h2>
           <div>
-            <img src={githubIcon} />
+            <p>{props.technologiesUsed}</p>
+          </div>
+        </div>
+        <br />
+        <div className='About-Container'>
+          <h2>About:</h2>
+          <div>
+            <p>{props.about}</p>
           </div>
         </div>
       </div>

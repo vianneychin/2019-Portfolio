@@ -3,9 +3,10 @@ import styled from 'styled-components'
 const Wrapper = styled.div`
   margin: 2.5%;
   display: flex;
+  height: 350px;
   .Project-Picture-Container {
     width: 50%;
-    height: 250px;
+    height: 100%;
     background-color: grey;
     display: flex;
     justify-content: center;
@@ -16,7 +17,7 @@ const Wrapper = styled.div`
   }
   .Project-Text-Container {
     width: 50%;
-    height: 250px;
+    height: 100%;
     background-color: pink;
     padding: 2.5%;
     .Title-Container {
@@ -27,10 +28,26 @@ const Wrapper = styled.div`
         font-weight: 400;
         line-height: 40px;
       }
-      div {
-        img {
-          height: 40px;
+      .Github-Container {
+        a {
+          img {
+            height: 40px;
+          }
         }
+      }
+    }
+  }
+  .Technologies-Used-Container {
+    div {
+      p {
+        white-space: normal;
+      }
+    }
+  }
+  .About-Container {
+    div {
+      p {
+        white-space: normal;
       }
     }
   }

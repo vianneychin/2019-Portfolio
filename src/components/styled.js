@@ -22,7 +22,7 @@ const Wrapper = styled.div`
     max-width: 1355px;
     .Left-Container {
       height: 900px;
-      width: 40%;
+      width: 34%;
       max-width: 538px;
       background-color: pink;
       display: flex;
@@ -49,7 +49,7 @@ const Wrapper = styled.div`
       }
     }
     .Right-Container {
-      width: 60%;
+      width: 66%;
       max-width: 2000px;
       background-color: cornflowerblue;
       height: 2000px;
