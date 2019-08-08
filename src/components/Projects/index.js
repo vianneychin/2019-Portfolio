@@ -1,6 +1,7 @@
 import React from 'react'
 import { Wrapper } from './styled'
 import ProjectCard from './ProjectCard'
+import useAos from '../../hooks/useAos'
 
 import connectFourOne from '../../assets/screenshots/connect-four-one.png'
 import connectFourTwo from '../../assets/screenshots/connect-four-two.png'
@@ -10,14 +11,17 @@ import muscleMaker from '../../assets/screenshots/muscle-maker.png'
 import safeParkingLA from '../../assets/screenshots/safe-parking-la.png'
 
 const Projects = () => {
+  useAos()
   return (
     <Wrapper>
       <div className='Title'>
-        <h1>projects ⚒</h1>
+        <h1 data-aos='flip-right'>projects ⚒</h1>
       </div>
       <div className='Projects-Container'>
         <ProjectCard
           image={safeParkingLA}
+          pictureAos={'flip-right'}
+          textAos={'fade-right'}
           alt={'safe parking la screenshot'}
           linkTo='https://safe-parking-la.herokuapp.com/'
           github='https://github.com/vianneychin/Safe-Parking-LA'
@@ -27,6 +31,8 @@ const Projects = () => {
         />
         <ProjectCard
           image={muscleMaker}
+          pictureAos={'flip-right'}
+          textAos={'fade-right'}
           alt={'muscle maker screenshot'}
           github='https://github.com/vianneychin/Muscle-Maker'
           linkTo='https://muscle-maker-2.herokuapp.com/'
@@ -36,6 +42,8 @@ const Projects = () => {
         />
         <ProjectCard
           image={weatherful}
+          pictureAos={'flip-right'}
+          textAos={'fade-right'}
           alt={'weatherful screenshot'}
           linkTo='https://cryptic-plateau-22152.herokuapp.com/'
           projectName='Weatherful Weather️️ ☔️ '
@@ -45,6 +53,8 @@ const Projects = () => {
         />
         <ProjectCard
           image={californature}
+          pictureAos={'flip-right'}
+          textAos={'fade-right'}
           alt={'californature screenshot'}
           github='https://github.com/vianneychin/Nature-Enthusiasts-Meetup'
           linkTo='http://californature.herokuapp.com/'
@@ -54,6 +64,8 @@ const Projects = () => {
         />
         <ProjectCard
           image={connectFourTwo}
+          pictureAos={'flip-right'}
+          textAos={'fade-right'}
           alt={'connect four two screenshot'}
           linkTo='https://vianneychin.github.io/Two-Player-Connect-Four-with-Zeplin.io/'
           github='https://github.com/vianneychin/Two-Player-Connect-Four-with-Zeplin.io'
@@ -63,6 +75,8 @@ const Projects = () => {
         />
         <ProjectCard
           image={connectFourOne}
+          pictureAos={'flip-right'}
+          textAos={'fade-right'}
           alt={'connect four one screenshot'}
           linkTo='https://vianneychin.github.io/Two-Player-Connect-Four/'
           github='https://github.com/vianneychin/Two-Player-Connect-Four'
