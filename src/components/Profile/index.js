@@ -1,6 +1,6 @@
 import React from 'react'
 import { Wrapper } from './styled'
-import face from '../../assets/face.PNG'
+import face from '../../assets/face.jpg'
 
 const Profile = () => {
   return (
