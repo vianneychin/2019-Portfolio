@@ -3,12 +3,12 @@ import { Wrapper } from './styled'
 import ProjectCard from './ProjectCard'
 import useAos from '../../hooks/useAos'
 
-import connectFourOne from '../../assets/screenshots/connect-four-one.png'
-import connectFourTwo from '../../assets/screenshots/connect-four-two.png'
-import californature from '../../assets/screenshots/californature.png'
-import weatherful from '../../assets/screenshots/weatherful.png'
-import muscleMaker from '../../assets/screenshots/muscle-maker.png'
-import safeParkingLA from '../../assets/screenshots/safe-parking-la.png'
+import connectFourOne from '../../assets/screenshots/connect-four-one.jpg'
+import connectFourTwo from '../../assets/screenshots/connect-four-two.jpg'
+import californature from '../../assets/screenshots/californature.jpg'
+import weatherful from '../../assets/screenshots/weatherful.jpg'
+import muscleMaker from '../../assets/screenshots/muscle-maker.jpg'
+import safeParkingLA from '../../assets/screenshots/safe-parking-la.jpg'
 
 const Projects = () => {
   useAos()
