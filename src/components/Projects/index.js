@@ -38,7 +38,7 @@ const Projects = () => {
           projectName='Weatherful Weather️️ ☔️ '
           github='https://github.com/vianneychin/Weatherful-Weather-App'
           technologiesUsed='React, React-Router, Moment, Styled Components, JavaScript, HTML5, CSS3, Node.js, Express.js, Mongoose.js, MongoDB, Git, GitHub, Dark Sky API'
-          about="A minimalist weather tracking application to get your next 12 hour and 7 day forecast. Inspired by the Momentum dashboard for it's simplistic signup method and feel-good clutter free UI."
+          about="A minimalist weather tracking application to get your next 12 hour and 7 day forecast. Inspired by the Momentum dashboard for it's simplistic signup method and feel-good clutter-free UI."
         />
         <ProjectCard
           image={californature}
@@ -62,7 +62,7 @@ const Projects = () => {
           github='https://github.com/vianneychin/Two-Player-Connect-Four'
           projectName='Connect Four 🎲'
           technologiesUsed='HTML5, CSS3, jQuery, JavaScript'
-          about='My first projected created on my own to further develop my JavaScript logic.'
+          about='My first project created on my own to further develop my JavaScript logic.'
         />
       </div>
     </Wrapper>
