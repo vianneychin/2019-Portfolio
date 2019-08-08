@@ -7,7 +7,7 @@ const ProjectCard = props => {
     <Wrapper>
       <div className='Project-Picture-Container'>
         <a href={props.linkTo}>
-          <img src={props.image} />
+          <img src={props.image} alt={props.alt} />
         </a>
       </div>
       <div className='Project-Text-Container'>
@@ -15,7 +15,7 @@ const ProjectCard = props => {
           <h1>{props.projectName}</h1>
           <div className='Github-Container'>
             <a href={props.github}>
-              <img src={githubIcon} />
+              <img alt='github icon' src={githubIcon} />
             </a>
           </div>
         </div>

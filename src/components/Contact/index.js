@@ -11,13 +11,17 @@ const Contact = () => {
       <div className='Contact-Container'>
         <div>
           <a href='tel:213-716-5106'>
-            <span>📞</span>
+            <span role='img' aria-label='phone-emoji'>
+              📞
+            </span>
             <p>(213) 716 - 5106</p>
           </a>
         </div>
         <div>
           <a href='mailto:vianneyjchin@gmail.com'>
-            <span>📬</span>
+            <span role='img' aria-label='mailbox-emoji'>
+              📬
+            </span>
             <p>vianneyjchin@gmail.com</p>
           </a>
         </div>
@@ -25,13 +29,13 @@ const Contact = () => {
       <div className='Social-Container'>
         <div>
           <a href='https://github.com/vianneychin'>
-            <img src={githubIcon} />
+            <img alt='github icon' src={githubIcon} />
             <p>GitHub</p>
           </a>
         </div>
         <div>
           <a href='https://www.linkedin.com/in/vianneyjchin/'>
-            <img src={linkedinIcon} />
+            <img alt='linkedin icon' src={linkedinIcon} />
             <p>LinkedIn</p>
           </a>
         </div>

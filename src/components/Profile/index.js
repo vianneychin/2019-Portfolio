@@ -6,7 +6,7 @@ const Profile = () => {
   return (
     <Wrapper>
       <div className='Profile-Image'>
-        <img src={face} />
+        <img alt='face-shot' src={face} />
       </div>
       <div className='Text-Container'>
         <h1 className='Name'>Vianney J. Chin</h1>

@@ -18,6 +18,7 @@ const Projects = () => {
       <div className='Projects-Container'>
         <ProjectCard
           image={safeParkingLA}
+          alt={'safe parking la screenshot'}
           linkTo='https://safe-parking-la.herokuapp.com/'
           github='https://github.com/vianneychin/Safe-Parking-LA'
           projectName='SafeParkingLA 🚗'
@@ -26,6 +27,7 @@ const Projects = () => {
         />
         <ProjectCard
           image={muscleMaker}
+          alt={'muscle maker screenshot'}
           github='https://github.com/vianneychin/Muscle-Maker'
           linkTo='https://muscle-maker-2.herokuapp.com/'
           projectName='Muscle Maker Fitness 🏋️‍'
@@ -34,6 +36,7 @@ const Projects = () => {
         />
         <ProjectCard
           image={weatherful}
+          alt={'weatherful screenshot'}
           linkTo='https://cryptic-plateau-22152.herokuapp.com/'
           projectName='Weatherful Weather️️ ☔️ '
           github='https://github.com/vianneychin/Weatherful-Weather-App'
@@ -42,6 +45,7 @@ const Projects = () => {
         />
         <ProjectCard
           image={californature}
+          alt={'californature screenshot'}
           github='https://github.com/vianneychin/Nature-Enthusiasts-Meetup'
           linkTo='http://californature.herokuapp.com/'
           projectName='Californature Meetup ⛰'
@@ -50,6 +54,7 @@ const Projects = () => {
         />
         <ProjectCard
           image={connectFourTwo}
+          alt={'connect four two screenshot'}
           linkTo='https://vianneychin.github.io/Two-Player-Connect-Four-with-Zeplin.io/'
           github='https://github.com/vianneychin/Two-Player-Connect-Four-with-Zeplin.io'
           projectName='Connect Four Remake 🎲'
@@ -58,6 +63,7 @@ const Projects = () => {
         />
         <ProjectCard
           image={connectFourOne}
+          alt={'connect four one screenshot'}
           linkTo='https://vianneychin.github.io/Two-Player-Connect-Four/'
           github='https://github.com/vianneychin/Two-Player-Connect-Four'
           projectName='Connect Four 🎲'

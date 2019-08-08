@@ -5,7 +5,12 @@ const Skills = () => {
   return (
     <Wrapper>
       <div className='Development-Skills'>
-        <h1>development 👨‍💻</h1>
+        <h1>
+          development
+          <span role='img' aria-label='person working behind a computer emoji'>
+            👨‍💻
+          </span>
+        </h1>
         <hr />
         <div className='Development-Content' style={{ flexDirection: 'row' }}>
           <span>Git</span>
