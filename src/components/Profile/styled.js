@@ -7,6 +7,11 @@ const Wrapper = styled.div`
   align-items: center;
   border-radius: 4px;
   box-shadow: ${props => props.theme.shadow};
+  margin-left: 5%;
+  margin-right: 5%;
+  @media (max-width: 1480px) {
+    margin-right: 10%;
+  }
   .Profile-Image {
     background-color: ${props => props.theme.secondary};
     display: flex;

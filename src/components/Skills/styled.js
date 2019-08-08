@@ -8,6 +8,11 @@ const Wrapper = styled.div`
   box-shadow: ${props => props.theme.shadow};
   padding-top: 5%;
   padding-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  @media (max-width: 1480px) {
+    margin-right: 10%;
+  }
   div {
     width: 100%;
     display: flex;

@@ -8,6 +8,11 @@ const Wrapper = styled.div`
   background-color: white;
   border-radius: 4px;
   box-shadow: ${props => props.theme.shadow};
+  margin-left: 5%;
+  margin-right: 5%;
+  @media (max-width: 1480px) {
+    margin-right: 10%;
+  }
   p {
     margin-top: 5px;
   }

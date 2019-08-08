@@ -19,6 +19,7 @@ const Wrapper = styled.div`
     height: 100%;
     width: 80%;
     max-width: 1355px;
+
     .Left-Container {
       height: 100vh;
       width: 34%;
@@ -52,6 +53,8 @@ const Wrapper = styled.div`
       height: 101%;
       padding: 1%;
       margin-left: 40%;
+      position: relative;
+      left: 0;
     }
   }
   @media (max-width: ${props => props.theme.dimensions.mobile}) {
