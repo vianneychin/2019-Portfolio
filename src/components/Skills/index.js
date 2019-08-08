@@ -5,17 +5,17 @@ const Skills = () => {
   return (
     <Wrapper>
       <div className='Development-Skills'>
-        <h1>
+        <h1 style={{ fontWeight: 500 }}>
           development
-          <span role='img' aria-label='person working behind a computer emoji'>
+          <span
+            role='img'
+            aria-label='person working behind a computer emoji'
+            style={{ fontSize: '20px', marginLeft: '2.5%' }}
+          >
             👨‍💻
           </span>
         </h1>
         <hr />
-        <div className='Development-Content' style={{ flexDirection: 'row' }}>
-          <span>Git</span>
-          <span>Github</span>
-        </div>
         <div className='Frontend-Skills'>
           <h1>frontend</h1>
           <hr />

@@ -6,7 +6,7 @@ import linkedinIcon from '../../assets/linkedin.svg'
 const Contact = () => {
   return (
     <Wrapper>
-      <h1>contact</h1>
+      <h1 style={{ fontWeight: '500' }}>contact</h1>
       <hr />
       <div className='Contact-Container'>
         <div>

@@ -21,7 +21,7 @@ const Wrapper = styled.div`
     align-items: center;
     > h1 {
       text-align: center;
-      font-weight: 400;
+      font-weight: 300;
       font-size: 20px;
     }
     > hr {
@@ -34,12 +34,6 @@ const Wrapper = styled.div`
       padding-left: 5px;
       padding-right: 5px;
       color: ${props => props.theme.secondary};
-    }
-    .Development-Skills {
-      .Development-Content {
-        display: flex;
-        flex-direction: row;
-      }
     }
     .Frontend-Skills {
       flex: 3;
