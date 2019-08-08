@@ -62,15 +62,18 @@ const Wrapper = styled.div`
       .Left-Container {
         width: 100%;
         height: 1000px;
+        position: inherit;
       }
       .Right-Container {
         height: 100%;
         width: 100%;
+        margin-left: 0;
       }
     }
     .Nav {
       visibility: visible;
       margin-bottom: 100px;
+      background-color: rgba(0, 0, 0, 0.6);
     }
   }
 `
