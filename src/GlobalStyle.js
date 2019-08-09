@@ -10,6 +10,14 @@ const GlobalStyle = createGlobalStyle`
       sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
     white-space: nowrap;
     line-height: 22px;
+    text-rendering: optimizeLegibility;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-font-smoothing: auto;
+  }
+  body {
+    overscroll-behavior-y: none;
+    -webkit-overflow-scrolling: touch;
   }
   a:visited {
     color: black;

@@ -24,7 +24,7 @@ const Wrapper = styled.div`
   }
   .Project-Text-Container {
     width: 50%;
-    padding: 2.5%;
+    padding: 15px;
     background-color: white;
     box-shadow: ${props => props.theme.shadow};
     border-radius: 4px;
