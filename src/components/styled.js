@@ -18,6 +18,9 @@ const Wrapper = styled.div`
     display: flex;
     height: 100%;
     width: 1347px;
+    @media (max-width: ${props => props.theme.dimensions.mobile}) {
+      width: 80%;
+    }
 
     .Left-Container {
       height: 100vh;
@@ -25,6 +28,9 @@ const Wrapper = styled.div`
       display: flex;
       flex-direction: column;
       position: fixed;
+      @media (max-width: ${props => props.theme.dimensions.mobile}) {
+        width: 34%;
+      }
       .Profile {
         background-color: ${props => props.theme.offWhite};
         flex: 1;
