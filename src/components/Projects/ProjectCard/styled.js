@@ -29,6 +29,7 @@ const Wrapper = styled.div`
     box-shadow: ${props => props.theme.shadow};
     border-radius: 4px;
     min-width: 305.5px;
+    margin-bottom: 30px;
     .Title-Container {
       display: flex;
       justify-content: space-between;
