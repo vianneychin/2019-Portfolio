@@ -21,7 +21,6 @@ const Wrapper = styled.div`
     align-self: center;
     margin-top: 1%;
     margin-bottom: 1%;
-    /* remember to change the color of this hr */
   }
   > h1 {
     text-align: center;

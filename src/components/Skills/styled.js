@@ -28,7 +28,6 @@ const Wrapper = styled.div`
       margin-top: 1%;
       margin-bottom: 1%;
       width: 15%;
-      /* Change the border color of this later */
     }
     > span {
       padding-left: 5px;

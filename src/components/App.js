@@ -30,13 +30,3 @@ const App = () => {
 }
 
 export default App
-
-/* 
-   TODO
-    • Create a center container.
-    • Create initial layout for design.
-    • 3 boxes on tshe left
-    • 1 main box on the right to house the projects
-    • Create a mobile design as well.
-    • Try creating a secondary DIV container that will house sticky items on the left side.
- */

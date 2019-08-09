@@ -17,13 +17,11 @@ const Wrapper = styled.div`
     background-color: darkgrey;
     display: flex;
     height: 100%;
-    width: 80%;
-    max-width: 1355px;
+    width: 1347px;
 
     .Left-Container {
       height: 100vh;
-      width: 34%;
-      max-width: 538px;
+      width: 538px;
       display: flex;
       flex-direction: column;
       position: fixed;

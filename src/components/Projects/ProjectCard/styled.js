@@ -1,11 +1,5 @@
 import styled from 'styled-components'
 
-/* 
-  Change the size of the font when the dimensions of the screen get smaller.
-  Change the size of the image as well.
-  
- */
-
 const Wrapper = styled.div`
   margin: 2.5%;
   display: flex;
