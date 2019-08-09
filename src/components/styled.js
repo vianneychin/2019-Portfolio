@@ -8,10 +8,11 @@ const Wrapper = styled.div`
   background-color: white;
   .Nav {
     width: 100%;
-    height: 100px;
+    height: 75px;
     position: fixed;
     top: 0;
     visibility: hidden;
+    z-index: 1;
   }
   .Center-Container {
     background-color: darkgrey;

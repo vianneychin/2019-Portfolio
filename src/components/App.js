@@ -4,11 +4,14 @@ import Profile from './Profile'
 import Skills from './Skills'
 import Contact from './Contact'
 import Projects from './Projects'
+import Nav from './Nav'
 
 const App = () => {
   return (
     <Wrapper>
-      <nav className='Nav' />
+      <nav className='Nav'>
+        <Nav />
+      </nav>
       <div className='Center-Container'>
         <div className='Left-Container'>
           <div className='Profile'>
