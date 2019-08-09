@@ -6,6 +6,7 @@ const Wrapper = styled.div`
   border-radius: 4px;
   box-shadow: ${props => props.theme.shadow};
   height: 101%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05), white);
   .Title {
     height: 106px;
     display: flex;

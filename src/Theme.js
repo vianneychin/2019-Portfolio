@@ -9,7 +9,8 @@ const theme = {
     mobile: '450px'
   },
   secondary: 'rgba(0,0,0,0.8)',
-  offWhite: 'rgba(255, 255, 255, 0.5)'
+  offWhite: 'rgba(255, 255, 255, 0.5)',
+  gradient: 'linear-gradient(rgba(0, 0, 0, 0.15), white)'
 }
 
 const Theme = props => {

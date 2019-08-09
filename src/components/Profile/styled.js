@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
-  background-color: white;
+  background-image: ${props => props.theme.gradient};
   height: 100%;
   display: flex;
   align-items: center;
@@ -53,7 +53,7 @@ const Wrapper = styled.div`
   @media (max-width: ${props => props.theme.dimensions.mobile}) {
     flex-direction: column;
     .Profile-Image {
-      background-color: white;
+      background-color: rgba(0, 0, 0, 0);
       > img {
         height: 90px;
         width: 90px;
