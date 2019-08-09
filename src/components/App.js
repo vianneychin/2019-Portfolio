@@ -17,14 +17,14 @@ const App = () => {
           <div className='Profile'>
             <Profile />
           </div>
-          <div className='Skills'>
+          <div id='skills' className='Skills'>
             <Skills />
           </div>
-          <div className='Contact'>
+          <div id='contact' className='Contact'>
             <Contact />
           </div>
         </div>
-        <div className='Right-Container'>
+        <div id='projects' className='Right-Container'>
           <Projects />
         </div>
       </div>
