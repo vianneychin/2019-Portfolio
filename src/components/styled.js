@@ -13,6 +13,7 @@ const Wrapper = styled.div`
     top: 0;
     visibility: hidden;
     z-index: 1;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
   }
   .Center-Container {
     background-color: darkgrey;
