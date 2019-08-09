@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
-  background-image: ${props => props.theme.gradient};
+  /* background-image: ${props => props.theme.gradient}; */
   height: 100%;
   display: flex;
   align-items: center;

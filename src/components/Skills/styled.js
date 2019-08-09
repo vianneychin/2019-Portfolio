@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const Wrapper = styled.div`
   height: 100%;
   display: flex;
-  background-image: ${props => props.theme.gradient};
+  /* background-image: ${props => props.theme.gradient}; */
   border-radius: 4px;
   box-shadow: ${props => props.theme.shadow};
   padding-top: 5%;

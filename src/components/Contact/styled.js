@@ -10,7 +10,7 @@ const Wrapper = styled.div`
   box-shadow: ${props => props.theme.shadow};
   margin-left: 5%;
   margin-right: 5%;
-  background-image: ${props => props.theme.gradient};
+  /* background-image: ${props => props.theme.gradient}; */
   @media (max-width: 1480px) {
     margin-right: 10%;
   }
