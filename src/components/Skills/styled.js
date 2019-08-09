@@ -30,8 +30,8 @@ const Wrapper = styled.div`
       width: 15%;
     }
     > span {
-      padding-left: 5px;
-      padding-right: 5px;
+      padding-left: 8px;
+      padding-right: 8px;
       color: ${props => props.theme.secondary};
     }
     .Frontend-Skills {
