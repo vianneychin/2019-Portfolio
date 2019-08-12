@@ -30,6 +30,7 @@ const Wrapper = styled.div`
     border-radius: 4px;
     min-width: 305.5px;
     margin-bottom: 30px;
+    padding: 3%;
     .Title-Container {
       display: flex;
       justify-content: space-between;
