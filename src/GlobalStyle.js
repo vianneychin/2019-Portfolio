@@ -14,6 +14,9 @@ const GlobalStyle = createGlobalStyle`
     -webkit-appearance: none;
     -moz-appearance: none;
     -webkit-font-smoothing: auto;
+    ::after, ::before {
+      box-sizing: border-box;
+    }
   }
   body {
     overscroll-behavior-y: none;

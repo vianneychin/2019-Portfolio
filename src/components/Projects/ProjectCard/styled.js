@@ -18,6 +18,14 @@ const Wrapper = styled.div`
         :hover {
           cursor: pointer;
           border: 3px solid rgb(0, 0, 0, 0.4);
+          ::after {
+            content: '';
+            display: block;
+            position: absolute;
+            background-color: red;
+            height: 100%;
+            width: 100%;
+          }
         }
       }
     }
