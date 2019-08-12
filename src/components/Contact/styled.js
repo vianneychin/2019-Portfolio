@@ -10,7 +10,7 @@ const Wrapper = styled.div`
   box-shadow: ${props => props.theme.shadow};
   margin-left: 5%;
   margin-right: 5%;
-  /* background-image: ${props => props.theme.gradient}; */
+  padding: 5%;
   @media (max-width: 1480px) {
     margin-right: 10%;
   }
@@ -18,7 +18,7 @@ const Wrapper = styled.div`
     margin-top: 5px;
   }
   hr {
-    width: 25%;
+    width: 10%;
     align-self: center;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -30,9 +30,10 @@ const Wrapper = styled.div`
   }
   .Contact-Container {
     display: flex;
-    height: 50%;
+    flex: 3;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
     > div {
       display: flex;
       justify-content: center;
@@ -50,13 +51,17 @@ const Wrapper = styled.div`
         > span {
           font-size: 20px;
           margin-right: 10%;
+          height: 100%;
+          width: 15px;
+          position: relative;
+          top: 8px;
+          }
         }
       }
     }
   }
   .Social-Container {
     display: flex;
-    height: 50%;
     align-items: center;
     > div {
       display: flex;
@@ -70,11 +75,12 @@ const Wrapper = styled.div`
         justify-content: center;
         align-items: center;
         > img {
-          height: 40px;
-          width: 40px;
+          height: 20px;
+          width: 20px;
           margin-top: 10px;
         }
         > p {
+          font-size: 14px;
           font-weight: 500;
           color: ${props => props.theme.secondary};
         }

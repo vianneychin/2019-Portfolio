@@ -11,8 +11,7 @@ const Profile = () => {
       <div className='Text-Container'>
         <h1 className='Name'>Vianney J. Chin</h1>
         <ul className='Title'>
-          <li>Frontend Developer</li>
-          <li>Fullstack Developer</li>
+          <li>Frontend | Fullstack Developer</li>
         </ul>
       </div>
     </Wrapper>

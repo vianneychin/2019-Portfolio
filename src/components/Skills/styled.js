@@ -3,11 +3,9 @@ import styled from 'styled-components'
 const Wrapper = styled.div`
   height: 100%;
   display: flex;
-  /* background-image: ${props => props.theme.gradient}; */
   border-radius: 4px;
   box-shadow: ${props => props.theme.shadow};
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding: 5%;
   margin-left: 5%;
   margin-right: 5%;
   @media (max-width: 1480px) {

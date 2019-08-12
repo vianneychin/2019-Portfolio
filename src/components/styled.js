@@ -42,12 +42,12 @@ const Wrapper = styled.div`
       .Skills {
         background-color: ${props => props.theme.offWhite};
         width: 100%;
-        flex: 2;
+        flex: 1.75;
         padding: 3.5%;
       }
       .Contact {
         background-color: ${props => props.theme.offWhite};
-        flex: 1;
+        flex: 1.25;
         width: 100%;
         padding: 3.5%;
       }

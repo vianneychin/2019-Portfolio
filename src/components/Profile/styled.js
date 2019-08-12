@@ -34,7 +34,6 @@ const Wrapper = styled.div`
     align-items: center;
     padding-top: 9%;
     .Name {
-      height: 35%;
       font-weight: 500;
       font-size: 25px;
       line-height: 70px;
@@ -43,7 +42,6 @@ const Wrapper = styled.div`
       }
     }
     .Title {
-      height: 35%;
       li {
         list-style: none;
         color: ${props => props.theme.secondary};
