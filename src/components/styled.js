@@ -24,12 +24,13 @@ const Wrapper = styled.div`
     }
 
     .Left-Container {
-      height: 100vh;
+      height: 96.5vh;
       width: 538px;
       display: flex;
       flex-direction: column;
       position: fixed;
       background-color: white;
+      margin-top: 2%;
       @media (max-width: ${props => props.theme.dimensions.mobile}) {
         width: 34%;
       }
@@ -58,9 +59,10 @@ const Wrapper = styled.div`
       background-color: ${props => props.theme.beige};
       height: 101%;
       padding: 1%;
-      margin-left: 40%;
+      margin-left: 42%;
       position: relative;
       left: 0;
+      margin-top: 3.75%;
     }
   }
   @media (max-width: ${props => props.theme.dimensions.mobile}) {

@@ -15,7 +15,7 @@ const Projects = () => {
   return (
     <Wrapper>
       <div className='Title'>
-        <h1 data-aos='flip-left'>projects ⚒</h1>
+        <h1 data-aos='flip-left'>Projects ⚒</h1>
       </div>
       <div className='Projects-Container'>
         <ProjectCard
