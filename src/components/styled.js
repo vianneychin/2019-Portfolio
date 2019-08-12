@@ -70,8 +70,9 @@ const Wrapper = styled.div`
       margin-top: 100.4px;
       .Left-Container {
         width: 100%;
-        height: 1000px;
+        height: 1100px;
         position: inherit;
+        margin-left: 2.5%;
       }
       .Right-Container {
         height: 100%;

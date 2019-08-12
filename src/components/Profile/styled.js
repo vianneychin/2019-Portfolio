@@ -62,7 +62,6 @@ const Wrapper = styled.div`
       margin-bottom: 5%;
       .Name {
         font-size: 18px;
-        line-height: 0;
       }
       .Title {
         li {
