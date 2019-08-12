@@ -6,7 +6,7 @@ const theme = {
   shadow:
     '0 5px 10px rgba(154, 160, 185, 0.5), 0 15px 40px rgba(166, 173, 201, 0.2)',
   dimensions: {
-    mobile: '450px'
+    mobile: '550px'
   },
   secondary: 'rgba(0,0,0,0.8)',
   offWhite: 'rgba(255, 255, 255, 0.5)',

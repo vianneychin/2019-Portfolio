@@ -2,12 +2,17 @@ import React from 'react'
 import { Wrapper } from './styled'
 import githubIcon from '../../assets/github.svg'
 import linkedinIcon from '../../assets/linkedin.svg'
-import { CallIcon, EmailIcon } from '../../assets/svg'
+import { CallIcon, EmailIcon, Profile } from '../../assets/svg'
 
 const Contact = () => {
   return (
     <Wrapper>
-      <h1 style={{ fontWeight: '500' }}>Contact </h1>
+      <h1 style={{ fontWeight: '500' }}>
+        Contact
+        <span>
+          <Profile />
+        </span>
+      </h1>
       <hr />
       <div className='Contact-Container'>
         <div>

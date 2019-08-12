@@ -11,6 +11,16 @@ const Wrapper = styled.div`
   @media (max-width: 1480px) {
     margin-right: 10%;
   }
+  .Development-Skills {
+    > h1 {
+      > span {
+        > svg {
+          height: 28px;
+          position: absolute;
+        }
+      }
+    }
+  }
   div {
     width: 100%;
     display: flex;
@@ -25,7 +35,7 @@ const Wrapper = styled.div`
     > hr {
       margin-top: 1%;
       margin-bottom: 1%;
-      width: 15%;
+      width: 6.5%;
     }
     > span {
       padding-left: 8px;

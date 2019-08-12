@@ -1,11 +1,17 @@
 import React from 'react'
 import { Wrapper } from './styled'
+import { Tools } from '../../assets/svg'
 
 const Skills = () => {
   return (
     <Wrapper>
       <div className='Development-Skills'>
-        <h1 style={{ fontWeight: 500 }}>Development</h1>
+        <h1 style={{ fontWeight: 500 }}>
+          Tools
+          <span>
+            <Tools />
+          </span>
+        </h1>
         <hr />
         <div className='Frontend-Skills'>
           <h1>Frontend</h1>

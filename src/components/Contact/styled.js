@@ -27,6 +27,14 @@ const Wrapper = styled.div`
     text-align: center;
     font-weight: 400;
     font-size: 20px;
+    > span {
+      > svg {
+        height: 28px;
+        position: relative;
+        top: 9px;
+        left: 3px;
+      }
+    }
   }
   .Contact-Container {
     display: flex;
@@ -55,6 +63,9 @@ const Wrapper = styled.div`
           width: 15px;
           position: relative;
           top: 8px;
+          @media (max-width: ${props => props.theme.dimensions.mobile}) {
+            margin-right: 8px;
+          }
           }
         }
       }
@@ -88,6 +99,7 @@ const Wrapper = styled.div`
     }
   }
   @media (max-width: ${props => props.theme.dimensions.mobile}) {
+    padding-top: 10%;
     p {
       font-size: 3vw;
     }
