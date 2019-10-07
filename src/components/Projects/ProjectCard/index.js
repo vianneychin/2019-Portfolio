@@ -6,7 +6,7 @@ import githubIcon from '../../../assets/github.svg'
 const ProjectCard = props => {
   useAos()
   return (
-    <Wrapper data-aos-duration='2000' data-aos='fade-up'>
+    <Wrapper data-aos-once='true' data-aos-duration='2000' data-aos='fade-up'>
       <div className='Project-Picture-Container'>
         <a href={props.linkTo}>
           <img src={props.image} alt={props.alt} />
