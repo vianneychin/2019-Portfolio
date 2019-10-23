@@ -3,14 +3,6 @@ import { Wrapper } from './styled'
 import ProjectCard from './ProjectCard'
 import useAos from '../../hooks/useAos'
 
-import connectFourOne from '../../assets/screenshots/connect-four-one.jpg'
-import connectFourTwo from '../../assets/screenshots/connect-four-two.jpg'
-import californature from '../../assets/screenshots/californature.jpg'
-import weatherful from '../../assets/screenshots/weatherful.jpg'
-import muscleMaker from '../../assets/screenshots/muscle-maker.jpg'
-import subscribeToSmells from '../../assets/screenshots/subscribe-to-smells.png'
-import safeParkingLA from '../../assets/screenshots/safe-parking-la.jpg'
-
 const Projects = () => {
   useAos()
   return (
@@ -20,16 +12,16 @@ const Projects = () => {
       </div>
       <div className='Projects-Container'>
         <ProjectCard
-          image={safeParkingLA}
+          image={'https://i.imgur.com/ZTCBcxs.png'}
           alt={'safe parking la screenshot'}
-          linkTo='https://safe-parking-la.herokuapp.com/'
+          linkTo='https://safeparkinglosangeles.herokuapp.com/'
           github='https://github.com/vianneychin/Safe-Parking-LA'
           projectName=' 🚙 SafeParkingLA'
           technologiesUsed='React, React Router, Styled Components, JavaScript, HTML5, CSS3, Zeplin, Git, GitHub, Responsive Design'
           about='A hackathon project made in the course of a three day sprint. This website was created to assist the homeless living in their cars and provide them the necessary resources for safe, legal, and overnight parking. Data was gathered from an excel spreadsheet and converted into JSON format to search for resources such as food, supplies, showers, etc. '
         />
         <ProjectCard
-          image={subscribeToSmells}
+          image={'https://i.imgur.com/B53Wr44.png'}
           alt={'subscribe to smells that matter screenshot'}
           linkTo='https://subscribe-to-smells.herokuapp.com/'
           github='https://github.com/vianneychin/Subscribe-to-Smells-That-Matter'
@@ -38,7 +30,7 @@ const Projects = () => {
           projectName='🕯 Candle Subscription'
         />
         <ProjectCard
-          image={muscleMaker}
+          image={'https://i.imgur.com/NnwwVxe.jpg'}
           alt={'muscle maker screenshot'}
           github='https://github.com/vianneychin/Muscle-Maker'
           linkTo='https://muscle-maker-2.herokuapp.com/'
@@ -47,7 +39,7 @@ const Projects = () => {
           about='A fitness tracking website with a Python backend and a React frontend. Has Modals for registering and signing up. Implemented Youtube API search engine and video rendering.'
         />
         <ProjectCard
-          image={weatherful}
+          iamge={'https://i.imgur.com/5lhbTh0.jpg'}
           alt={'weatherful screenshot'}
           linkTo='https://cryptic-plateau-22152.herokuapp.com/'
           projectName='☔ Weatherful Weather️️'
@@ -56,7 +48,7 @@ const Projects = () => {
           about="A minimalist weather tracking application to get your next 12 hour and 7 day forecast. Inspired by the Momentum dashboard for it's simplistic signup method and feel-good clutter-free UI."
         />
         <ProjectCard
-          image={californature}
+          image={'https://i.imgur.com/sx11xwy.jpg'}
           alt={'californature screenshot'}
           github='https://github.com/vianneychin/Nature-Enthusiasts-Meetup'
           linkTo='http://californature.herokuapp.com/'
@@ -65,7 +57,7 @@ const Projects = () => {
           about='A meetup website for nature enthusiasts and nature lovers alike. Register and join a local meetup or create one of your own. '
         />
         <ProjectCard
-          image={connectFourTwo}
+          image={'https://i.imgur.com/A8Xlvx1.jpg'}
           alt={'connect four two screenshot'}
           linkTo='https://vianneychin.github.io/Two-Player-Connect-Four-with-Zeplin.io/'
           github='https://github.com/vianneychin/Two-Player-Connect-Four-with-Zeplin.io'
@@ -74,7 +66,7 @@ const Projects = () => {
           about='A remake created with the help of a UX Designer to gain more knowledge on better design and UI fundamentals for a better user experience.'
         />
         <ProjectCard
-          image={connectFourOne}
+          image={'https://i.imgur.com/OSCsChB.jpg'}
           alt={'connect four one screenshot'}
           linkTo='https://vianneychin.github.io/Two-Player-Connect-Four/'
           github='https://github.com/vianneychin/Two-Player-Connect-Four'
