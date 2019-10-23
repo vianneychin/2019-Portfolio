@@ -39,7 +39,7 @@ const Projects = () => {
           about='A fitness tracking website with a Python backend and a React frontend. Has Modals for registering and signing up. Implemented Youtube API search engine and video rendering.'
         />
         <ProjectCard
-          iamge={'https://i.imgur.com/5lhbTh0.jpg'}
+          image={'https://i.imgur.com/5lhbTh0.jpg'}
           alt={'weatherful screenshot'}
           linkTo='https://cryptic-plateau-22152.herokuapp.com/'
           projectName='☔ Weatherful Weather️️'
